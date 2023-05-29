@@ -133,7 +133,8 @@ def main():
     current_dir = os.getcwd()
     sys.path.insert(1, os.path.abspath(os.path.join(current_dir, '../../')))
     bsc_refund()
-    polygon_refund()
+    eth_refund()
+#    polygon_refund()
 
 if __name__ == "__main__":
     main()
